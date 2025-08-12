@@ -1,0 +1,40 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.navbar, .footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  background-color: white;
+  font-weight: bold;
+}
+
+.section-title {
+  margin: 40px 0 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 40px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
